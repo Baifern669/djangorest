@@ -1,7 +1,7 @@
 from django.db import models
 
 
-# Create your models here.
+# Create your models here. By Fern
 class Task(models.Model):
     title = models.CharField(max_length=80)
     description = models.TextField()
